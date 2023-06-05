@@ -1,0 +1,22 @@
+{
+  "name": "@tcfkr/eslint-config-tcf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tcfkr/eslint-config-tcf.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tcfkr/eslint-config-tcf/issues"
+  },
+  "homepage": "https://github.com/tcfkr/eslint-config-tcf#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
+}
