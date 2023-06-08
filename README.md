@@ -6,5 +6,5 @@
 ### Install
 
 ```shell
-npm install npm install @tcfkr/eslint-config-tcf@1.0.0
+npm install npm install @tcfkr/eslint-config-tcf
 ```
