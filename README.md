@@ -4,7 +4,7 @@
 
 ## install
 ```js
-// 프로젝트 루트 디렉터리에 .eslintrc.js
+// in root directory .eslintrc.js
 module.exports = {
   extends: "@tcfkr/eslint-config-tcf"
 }
@@ -12,11 +12,10 @@ module.exports = {
 ```
 
 ```shell
-npm install eslint-plugin-import eslint-plugin-node
 npm link @tcfkr/eslint-config-tcf
 ```
 
 ## run
 ```shell
-npx eslint ./파일
+npx eslint ./src
 ```
