@@ -10,8 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/tcfkr/eslint-config-tcf.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "pdj <pdj@tcf.kr>",
   "bugs": {
     "url": "https://github.com/tcfkr/eslint-config-tcf/issues"
   },
@@ -21,8 +20,6 @@
   },
   "dependencies": {
     "@babel/eslint-parser": "^7.21.8",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^8.42.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-node": "^11.1.0"
   }
