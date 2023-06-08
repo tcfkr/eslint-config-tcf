@@ -19,7 +19,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
-  "devDependencies": {
+  "dependencies": {
     "@babel/eslint-parser": "^7.21.8",
     "babel-eslint": "^10.1.0",
     "eslint": "^8.42.0",
