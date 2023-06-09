@@ -1,17 +1,16 @@
 {
   "name": "@tcfkr/eslint-config-tcf",
   "version": "1.0.0",
-  "description": "",
+  "description": "eslint config 프로젝트",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "eslint": "eslint --fix"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tcfkr/eslint-config-tcf.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "pdj <pdj@tcf.kr>",
   "bugs": {
     "url": "https://github.com/tcfkr/eslint-config-tcf/issues"
   },
@@ -19,9 +18,9 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
-  "devDependencies": {
+  "dependencies": {
+    "@babel/core": "^7.22.5",
     "@babel/eslint-parser": "^7.21.8",
-    "babel-eslint": "^10.1.0",
     "eslint": "^8.42.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-node": "^11.1.0"
