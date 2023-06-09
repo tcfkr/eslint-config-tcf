@@ -6,11 +6,9 @@
 github 저장소에 있는 패키지를 설치하기 위해서는 .npmrc 파일이 필요합니다.<br>
 [working-with-the-npm-registry#installing-a-package](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry#installing-a-package)
 
-### Install & Run
+### Install
 ```shell
 npm install @tcfkr/eslint-config-tcf
-
-eslint ./src
 ```
 
 ## Build & Deploy
