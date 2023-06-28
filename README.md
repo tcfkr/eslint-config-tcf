@@ -8,7 +8,15 @@ github 저장소에 있는 패키지를 설치하기 위해서는 .npmrc 파일�
 
 ### Install
 ```shell
-npm install @tcfkr/eslint-config-tcf
+npm install --save-dev @tcfkr/eslint-config-tcf
+```
+
+### Code
+```js
+// .eslintc.js
+module.exports = {
+  extends: ['@tcfkr/eslint-config-tcf']
+}
 ```
 
 ## Build & Deploy
